@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 from contacts.models import Contact
 
 def register(request):
-  if request.method == 'POST':
+  if request.method == 'POST': 
     # Get form values
     first_name = request.POST['first_name']
     last_name = request.POST['last_name']
